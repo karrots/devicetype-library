@@ -1,0 +1,57 @@
+manufacturer: Cisco
+model: ASA5585-X
+slug: asa5585-x
+part_number: ''
+u_height: 2
+is_full_depth: true
+subdevice_role: ''
+comments: ''
+console-ports:
+- name: Console 0
+  type: rj-45
+power-ports:
+- name: PS1
+  type: iec-60320-c20
+  maximum_draw: 1200
+  allocated_draw: null
+- name: PS2
+  type: iec-60320-c20
+  maximum_draw: 1200
+  allocated_draw: null
+interfaces:
+- name: GigabitEthernet0/0
+  type: 1000base-t
+  mgmt_only: false
+- name: GigabitEthernet0/1
+  type: 1000base-t
+  mgmt_only: false
+- name: GigabitEthernet0/2
+  type: 1000base-t
+  mgmt_only: false
+- name: GigabitEthernet0/3
+  type: 1000base-t
+  mgmt_only: false
+- name: GigabitEthernet0/4
+  type: 1000base-t
+  mgmt_only: false
+- name: GigabitEthernet0/5
+  type: 1000base-t
+  mgmt_only: false
+- name: GigabitEthernet0/6
+  type: 1000base-t
+  mgmt_only: false
+- name: GigabitEthernet0/7
+  type: 1000base-t
+  mgmt_only: false
+- name: TenGigabitEthernet0/8
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: TenGigabitEthernet0/9
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Mgmt0
+  type: 1000base-t
+  mgmt_only: true
+- name: Mgmt1
+  type: 1000base-t
+  mgmt_only: true
